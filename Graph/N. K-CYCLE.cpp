@@ -1,3 +1,24 @@
+//Given an undirected graph 𝐺=(𝑉,𝐸) in which 𝑉={1,…,𝑁} is the set of nodes. Given an integer 𝐾. Compute the number 𝑄 of elementary cycles of 𝐺 having exactly 𝐾 edges.
+//
+//Input
+//Line 1 𝑁 and 𝑀 and 𝐾 (1≤𝑁≤30,1≤𝑀≤50,3≤𝐾≤15)
+//Line 𝑖+1 (𝑖=1,…,𝑀): 𝑢 and 𝑣 which are endpoints of the 𝑖𝑡ℎ edge
+//Output
+//Write the value of 𝑄.
+//
+//Example
+//inputCopy
+//5 7 4
+//1 2
+//1 3
+//2 3
+//2 4
+//2 5
+//3 4
+//4 5
+//outputCopy
+//2
+
 #include <iostream>
 #include <vector>
 #define MAXN 35

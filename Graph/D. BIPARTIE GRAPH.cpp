@@ -1,3 +1,23 @@
+//Given a undirected graph 𝐺=(𝑉,𝐸) in which 𝑉={1,…,𝑁} is the set of nodes and |𝐸|=𝑀. You are required to write a program to check if 𝐺 is a bipartie graph.
+//
+//Input
+//Line 1 𝑁 and 𝑀 (1≤𝑁,𝑀≤105)
+//Line 𝑖+1 (𝑖=1,…,𝑀): 𝑢 and 𝑣 which are endpoints of the 𝑖𝑡ℎ edge
+//Output
+//Write 1 if 𝐺 is a bipartie graph and 0, otherwise.
+//
+//Example
+//inputCopy
+//6 6
+//1 2
+//1 3
+//2 5
+//2 6
+//4 5
+//4 6
+//outputCopy
+//1
+
 #include <iostream>
 #include <vector>
 #include <queue>

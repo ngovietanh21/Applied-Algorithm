@@ -1,3 +1,22 @@
+//Given a undirected tree 𝐺=(𝑉,𝐸) in which 𝑉={1,…,𝑁} is the set of nodes. Each edge (𝑢,𝑣)∈𝐸 has weight 𝑤(𝑢,𝑣). The length of a path is defined to be the sum of weights of edges of this path. Find the longest elementary path on 𝐺.
+//
+//Input
+//Line 1: positive integer 𝑁 (1≤𝑁≤105)
+//Line 𝑖+1 (𝑖=1,…,𝑁−1): positive integers 𝑢,𝑣,𝑤 in which 𝑤 is the weight of edge (𝑢,𝑣) (1 ≤ w ≤ 100)
+//Output
+//The weight of the longest path on the given tree
+//
+//Example
+//inputCopy
+//6
+//1 3 3
+//1 6 2
+//2 6 5
+//4 5 2
+//4 6 1
+//outputCopy
+//10
+
 #include <iostream>
 #include <vector>
 #define MAX 100003

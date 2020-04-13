@@ -1,3 +1,26 @@
+//Given a directed graph 𝐺=(𝑉,𝐴) where 𝑉={1,…,𝑛} is the set of nodes. Each arc (𝑢,𝑣)∈𝐴 has weight 𝑤(𝑢,𝑣). Given 𝑠,𝑡∈𝑉, compute the shortest path from 𝑠 to 𝑡.
+//
+//Input
+//Line 1: 𝑛 and 𝑚 (1≤𝑛≤105,1≤𝑚≤106)
+//Line 𝑖+1 (𝑖=1,…,𝑚): positive integers 𝑢, 𝑣, and 𝑤 in which 𝑤 is the weight of arc (𝑢,𝑣)
+//Line m+2: 𝑠, 𝑡
+//Output
+//Write the weight of the shortest path found or -1 if no path from 𝑠 to 𝑡 exists.
+//
+//Example
+//inputCopy
+//5 7
+//2 5 87
+//1 2 97
+//4 5 78
+//3 1 72
+//1 4 19
+//2 3 63
+//5 1 18
+//1 5
+//outputCopy
+//97
+
 #include <iostream>
 #include <vector>
 #include <queue>

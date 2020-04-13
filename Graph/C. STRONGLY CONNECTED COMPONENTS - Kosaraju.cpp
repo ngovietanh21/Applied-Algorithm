@@ -1,4 +1,29 @@
- #include <iostream>
+//Given a directed graph 𝐺=(𝑉,𝐸) where 𝑉={1,…,𝑁} is the number of nodes and the set 𝐸 has 𝑀 arcs. Compute number of strongly connected components of 𝐺
+//Input
+//Line 1: two positive integers 𝑁 and 𝑀 (1≤𝑁≤105,1≤𝑀≤106)
+//Lline 𝑖+1 (𝑖=1,…,𝑀): contains two positive integers 𝑢 and 𝑣 which are endpoints of 𝑖𝑡ℎ arc
+//Output
+//Write the number of strongly connected components of 𝐺
+//Example
+//inputCopy
+//8 13
+//1 2
+//1 8
+//2 3
+//2 6
+//3 6
+//4 3
+//4 6
+//5 4
+//6 5
+//7 1
+//7 2
+//7 6
+//8 7
+//outputCopy
+//3
+
+#include <iostream>
 #include <vector>
 #include <stack>
 #define MAX 1000003
