@@ -1,4 +1,5 @@
 # Applied Algorithm
+# C/C++
 
-TestGit
-Oke Trying change file on nano on terminal
+Description
+Some problems in algorithm at HUST using C/C++ language (subject: Thuật toán ứng dụng)
